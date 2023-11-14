@@ -6,7 +6,7 @@ const Hero = () => {
 	return (
 		<section
 			id="hero"
-			className="relative table w-full md:py-32 pt-[5rem] xs:pb-10 container mx-auto pl-[5rem] pr-[5rem]"
+			className="relative table w-full md:py-16 pt-[5rem] xs:pb-10 container mx-auto pl-[5rem] pr-[5rem]"
 		>
 			<div className="mx-auto container bg-inherit">
 				<div className="grid md:grid-cols-12 grid-cols-1 items-center gap-[30px] text-center md:text-left">
