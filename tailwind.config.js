@@ -84,9 +84,14 @@ export default {
 				mint: '#9ce2ce',
 				blue: '#00b3c6',
 				purple: '#ca0cb9',
-				lavender: '#c79df9'
+				lavender: '#c79df9',
+				subtlePink: '#fff7dc',
+				darkPink: '#f4d8c3'
 			},
-
+			backgroundImage: {
+				'blue-orange-gradient': 'linear-gradient(to top right, #00b3c6, #f26424)',
+				'mint-blue-gradient': 'linear-gradient(to top right, #9ce2ce, #00b3c6)'
+			},
 			boxShadow: {
 				sm: '0 2px 4px 0 rgb(60 72 88 / 0.15)',
 				DEFAULT: '0 0 3px rgb(60 72 88 / 0.15)',
@@ -117,6 +122,11 @@ export default {
 				2: '2',
 				3: '3',
 				999: '999'
+			},
+			fontFamily: {
+				headline: ['Gothic A1', 'sans-serif'],
+				subheadline: ['Josefin Sans', 'sans-serif'],
+				roboto: ['Roboto Mono', 'monospace']
 			}
 		}
 	}

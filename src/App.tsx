@@ -6,10 +6,11 @@ import Navbar from './components/Navbar'
 function App() {
 	return (
 		<>
-			<Navbar />
-			<main>
+			<header className="bg-subtlePink">
+				<Navbar />
 				<Hero />
-			</main>
+			</header>
+			<main></main>
 			{/* <Footer /> */}
 		</>
 	)
