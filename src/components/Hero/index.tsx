@@ -25,7 +25,7 @@ const Hero = () => {
 							<div className="mt-6">
 								<a
 									href="#"
-									className="bg-pink text-white px-4 py-2 rounded hover:bg-darkPink hover:text-black transition ease-in-out duration-300"
+									className="bg-pink text-white px-10 py-3 rounded hover:bg-darkPink hover:text-black transition ease-in-out duration-300 uppercase"
 								>
 									Order Now
 								</a>
